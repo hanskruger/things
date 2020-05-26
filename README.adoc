@@ -1,1 +1,4 @@
-# things
+= things
+
+== Abdeckung Deckenmontage
+image::elektroabdeckung/cover.png[]

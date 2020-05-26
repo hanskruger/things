@@ -74,7 +74,7 @@ translate([-15,-40+wall/2,30])
 
 translate ([40,-10,0])
 union(){
-cylinder(d1=10, d2=10, h=wall);
+cylinder(d1=7.5, d2=7.5, h=wall);
 difference() {
 cylinder(d1=7.5, d2=7.5, h=wall+4);
 cylinder(d1=7.5-2*wall, d2=7.5-2*wall, h=wall+4);
@@ -82,7 +82,7 @@ cylinder(d1=7.5-2*wall, d2=7.5-2*wall, h=wall+4);
 }
 translate ([40,+10,0])
 union(){
-cylinder(d1=10, d2=10, h=wall);
+cylinder(d1=7.5, d2=7.5´, h=wall);
 difference() {
 cylinder(d1=7.5, d2=7.5, h=wall+4);
 cylinder(d1=7.5-2*wall, d2=7.5-2*wall, h=wall+4);
